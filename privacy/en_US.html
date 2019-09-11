@@ -1,1 +1,1755 @@
-<!doctype html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'><title>pose_privacy_en</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext'rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root {--bg-color: #ffffff;--text-color: #333333;--select-text-bg-color: #B5D6FC;--select-text-font-color: auto;--monospace: "Lucida Console", Consolas, "Courier", monospace;}html {font-size: 14px;background-color: var(--bg-color);color: var(--text-color);font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;}body {margin: 0px;padding: 0px;height: auto;bottom: 0px;top: 0px;left: 0px;right: 0px;font-size: .875rem;line-height: 1.42857143;overflow-x: hidden;background-image: inherit;background-size: inherit;background-attachment: inherit;background-origin: inherit;background-clip: inherit;background-color: inherit;tab-size: 4;background-position: inherit inherit;background-repeat: inherit inherit;}iframe {margin: auto;}a.url {word-break: break-all;}a:active,a:hover {outline: 0px;}.in-text-selection,::selection {text-shadow: none;background: var(--select-text-bg-color);color: var(--select-text-font-color);}#write {margin: 0px auto;height: auto;width: inherit;word-break: normal;word-wrap: break-word;position: relative;white-space: normal;overflow-x: visible;padding-top: 40px;}#write.first-line-indent p {text-indent: 2em;}#write.first-line-indent li p,#write.first-line-indent p * {text-indent: 0px;}#write.first-line-indent li {margin-left: 2em;}.for-image #write {padding-left: 8px;padding-right: 8px;}body.typora-export {padding-left: 30px;padding-right: 30px;}.typora-export .footnote-line,.typora-export li,.typora-export p {white-space: pre-wrap;}@media screen and (max-width: 500px) {body.typora-export {padding-left: 0px;padding-right: 0px;}#write {padding-left: 20px;padding-right: 20px;}.CodeMirror-sizer {margin-left: 0px !important;}.CodeMirror-gutters {display: none !important;}}#write li>figure:last-child {margin-bottom: 0.5rem;}#write ol,#write ul {position: relative;}img {max-width: 100%;vertical-align: middle;}button,input,select,textarea {color: inherit;font-family: inherit;font-size: inherit;font-style: inherit;font-variant-caps: inherit;font-weight: inherit;font-stretch: inherit;line-height: inherit;}input[type="checkbox"],input[type="radio"] {line-height: normal;padding: 0px;}*,::after,::before {box-sizing: border-box;}#write h1,#write h2,#write h3,#write h4,#write h5,#write h6,#write p,#write pre {width: inherit;}#write h1,#write h2,#write h3,#write h4,#write h5,#write h6,#write p {position: relative;}p {line-height: inherit;}h1,h2,h3,h4,h5,h6 {break-after: avoid-page;break-inside: avoid;orphans: 2;}p {orphans: 4;}h1 {font-size: 2rem;}h2 {font-size: 1.8rem;}h3 {font-size: 1.6rem;}h4 {font-size: 1.4rem;}h5 {font-size: 1.2rem;}h6 {font-size: 1rem;}.md-math-block,.md-rawblock,h1,h2,h3,h4,h5,h6,p {margin-top: 1rem;margin-bottom: 1rem;}.hidden {display: none;}.md-blockmeta {color: rgb(204, 204, 204);font-weight: 700;font-style: italic;}a {cursor: pointer;}sup.md-footnote {padding: 2px 4px;background-color: rgba(238, 238, 238, 0.701961);color: rgb(85, 85, 85);border-top-left-radius: 4px;border-top-right-radius: 4px;border-bottom-right-radius: 4px;border-bottom-left-radius: 4px;cursor: pointer;}sup.md-footnote a,sup.md-footnote a:hover {color: inherit;text-transform: inherit;text-decoration: inherit;}#write input[type="checkbox"] {cursor: pointer;width: inherit;height: inherit;}figure {overflow-x: auto;margin: 1.2em 0px;max-width: calc(100% + 16px);padding: 0px;}figure>table {margin: 0px !important;}tr {break-inside: avoid;break-after: auto;}thead {display: table-header-group;}table {border-collapse: collapse;border-spacing: 0px;width: 100%;overflow: auto;break-inside: auto;text-align: left;}table.md-table td {min-width: 32px;}.CodeMirror-gutters {border-right-width: 0px;background-color: inherit;}.CodeMirror-linenumber {}.CodeMirror {text-align: left;}.CodeMirror-placeholder {opacity: 0.3;}.CodeMirror pre {padding: 0px 4px;}.CodeMirror-lines {padding: 0px;}div.hr:focus {cursor: none;}#write pre {white-space: pre-wrap;}#write.fences-no-line-wrapping pre {white-space: pre;}#write pre.ty-contain-cm {white-space: normal;}.CodeMirror-gutters {margin-right: 4px;}.md-fences {font-size: 0.9rem;display: block;break-inside: avoid;text-align: left;overflow: visible;white-space: pre;background-image: inherit;background-size: inherit;background-attachment: inherit;background-origin: inherit;background-clip: inherit;background-color: inherit;position: relative !important;background-position: inherit inherit;background-repeat: inherit inherit;}.md-diagram-panel {width: 100%;margin-top: 10px;text-align: center;padding-top: 0px;padding-bottom: 8px;overflow-x: auto;}#write .md-fences.mock-cm {white-space: pre-wrap;}.md-fences.md-fences-with-lineno {padding-left: 0px;}#write.fences-no-line-wrapping .md-fences.mock-cm {white-space: pre;overflow-x: auto;}.md-fences.mock-cm.md-fences-with-lineno {padding-left: 8px;}.CodeMirror-line,twitterwidget {break-inside: avoid;}.footnotes {opacity: 0.8;font-size: 0.9rem;margin-top: 1em;margin-bottom: 1em;}.footnotes+.footnotes {margin-top: 0px;}.md-reset {margin: 0px;padding: 0px;border: 0px;outline: 0px;vertical-align: top;text-decoration: none;text-shadow: none;float: none;position: static;width: auto;height: auto;white-space: nowrap;cursor: inherit;line-height: normal;font-weight: 400;text-align: left;box-sizing: content-box;direction: ltr;background-position: 0px 0px;background-repeat: initial initial;}li div {padding-top: 0px;}blockquote {margin: 1rem 0px;}li .mathjax-block,li p {margin: 0.5rem 0px;}li {margin: 0px;position: relative;}blockquote> :last-child {margin-bottom: 0px;}blockquote> :first-child,li> :first-child {margin-top: 0px;}.footnotes-area {color: rgb(136, 136, 136);margin-top: 0.714rem;padding-bottom: 0.143rem;white-space: normal;}#write .footnote-line {white-space: pre-wrap;}@media print {body,html {border: 1px solid transparent;height: 99%;break-after: avoid-page;break-before: avoid-page;}#write {margin-top: 0px;padding-top: 0px;border-color: transparent !important;}.typora-export * {-webkit-print-color-adjust: exact;}html.blink-to-pdf {font-size: 13px;}.typora-export #write {padding-left: 32px;padding-right: 32px;padding-bottom: 0px;break-after: avoid-page;}.typora-export #write::after {height: 0px;}}.footnote-line {margin-top: 0.714em;font-size: 0.7em;}a img,img a {cursor: pointer;}pre.md-meta-block {font-size: 0.8rem;min-height: 0.8rem;white-space: pre-wrap;background-color: rgb(204, 204, 204);display: block;overflow-x: hidden;background-position: initial initial;background-repeat: initial initial;}p>.md-image:only-child:not(.md-img-error) img,p>img:only-child {display: block;margin: auto;}p>.md-image:only-child {display: inline-block;width: 100%;}#write .MathJax_Display {margin: 0.8em 0px 0px;}.md-math-block {width: 100%;}.md-math-block:not(:empty)::after {display: none;}[contenteditable="true"]:active,[contenteditable="true"]:focus {outline: 0px;box-shadow: none;}.md-task-list-item {position: relative;list-style-type: none;}.task-list-item.md-task-list-item {padding-left: 0px;}.md-task-list-item>input {position: absolute;top: 0px;left: 0px;margin-left: -1.2em;margin-top: calc(1em - 10px);border: none;}.math {font-size: 1rem;}.md-toc {min-height: 3.58rem;position: relative;font-size: 0.9rem;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}.md-toc-content {position: relative;margin-left: 0px;}.md-toc-content::after,.md-toc::after {display: none;}.md-toc-item {display: block;color: rgb(65, 131, 196);}.md-toc-item a {text-decoration: none;}.md-toc-inner:hover {text-decoration: underline;}.md-toc-inner {display: inline-block;cursor: pointer;}.md-toc-h1 .md-toc-inner {margin-left: 0px;font-weight: 700;}.md-toc-h2 .md-toc-inner {margin-left: 2em;}.md-toc-h3 .md-toc-inner {margin-left: 4em;}.md-toc-h4 .md-toc-inner {margin-left: 6em;}.md-toc-h5 .md-toc-inner {margin-left: 8em;}.md-toc-h6 .md-toc-inner {margin-left: 10em;}@media screen and (max-width: 48em) {.md-toc-h3 .md-toc-inner {margin-left: 3.5em;}.md-toc-h4 .md-toc-inner {margin-left: 5em;}.md-toc-h5 .md-toc-inner {margin-left: 6.5em;}.md-toc-h6 .md-toc-inner {margin-left: 8em;}}a.md-toc-inner {font-size: inherit;font-style: inherit;font-weight: inherit;line-height: inherit;}.footnote-line a:not(.reversefootnote) {color: inherit;}.md-attr {display: none;}.md-fn-count::after {content: ".";}code,pre,samp,tt {font-family: var(--monospace);}kbd {margin: 0px 0.1em;padding: 0.1em 0.6em;font-size: 0.8em;color: rgb(36, 39, 41);background-color: rgb(255, 255, 255);border: 1px solid rgb(173, 179, 185);border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset;white-space: nowrap;vertical-align: middle;background-position: initial initial;background-repeat: initial initial;}.md-comment {color: rgb(162, 127, 3);opacity: 0.8;font-family: var(--monospace);}code {text-align: left;}a.md-print-anchor {white-space: pre !important;border: none !important;display: inline-block !important;position: absolute !important;width: 1px !important;right: 0px !important;outline: 0px !important;text-shadow: initial !important;background-position: 0px 0px !important;background-repeat: initial initial !important;}.md-inline-math .MathJax_SVG .noError {display: none !important;}.html-for-mac .inline-math-svg .MathJax_SVG {vertical-align: 0.2px;}.md-math-block .MathJax_SVG_Display {text-align: center;margin: 0px;position: relative;text-indent: 0px;max-width: none;max-height: none;min-height: 0px;min-width: 100%;width: auto;overflow-y: hidden;display: block !important;}.MathJax_SVG_Display,.md-inline-math .MathJax_SVG_Display {width: auto;margin: inherit;display: inline-block !important;}.MathJax_SVG .MJX-monospace {font-family: var(--monospace);}.MathJax_SVG .MJX-sans-serif {font-family: sans-serif;}.MathJax_SVG {display: inline;font-style: normal;font-weight: 400;line-height: normal;zoom: 90%;text-indent: 0px;text-align: left;text-transform: none;letter-spacing: normal;word-spacing: normal;word-wrap: normal;white-space: nowrap;float: none;direction: ltr;max-width: none;max-height: none;min-width: 0px;min-height: 0px;border: 0px;padding: 0px;margin: 0px;}.MathJax_SVG * {transition: none;}.MathJax_SVG_Display svg {vertical-align: middle !important;margin-bottom: 0px !important;margin-top: 0px !important;}.os-windows.monocolor-emoji .md-emoji {font-family: "Segoe UI Symbol", sans-serif;}.md-diagram-panel>svg {max-width: 100%;}[lang="mermaid"] svg,[lang="flow"] svg {max-width: 100%;height: auto;}[lang="mermaid"] .node text {font-size: 1rem;}table tr th {border-bottom-width: 0px;}video {max-width: 100%;display: block;margin: 0px auto;}iframe {max-width: 100%;width: 100%;border: none;}.highlight td,.highlight tr {border: 0px;}:root {--side-bar-bg-color: #fafafa;--control-text-color: #777;}@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);html {font-size: 16px;}body {font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;color: rgb(51, 51, 51);line-height: 1.6;}#write {max-width: 860px;margin: 0 auto;padding: 30px;padding-bottom: 100px;}#write>ul:first-child,#write>ol:first-child {margin-top: 30px;}a {color: #4183C4;}h1,h2,h3,h4,h5,h6 {position: relative;margin-top: 1rem;margin-bottom: 1rem;font-weight: bold;line-height: 1.4;cursor: text;}h1:hover a.anchor,h2:hover a.anchor,h3:hover a.anchor,h4:hover a.anchor,h5:hover a.anchor,h6:hover a.anchor {text-decoration: none;}h1 tt,h1 code {font-size: inherit;}h2 tt,h2 code {font-size: inherit;}h3 tt,h3 code {font-size: inherit;}h4 tt,h4 code {font-size: inherit;}h5 tt,h5 code {font-size: inherit;}h6 tt,h6 code {font-size: inherit;}h1 {padding-bottom: .3em;font-size: 2.25em;line-height: 1.2;border-bottom: 1px solid #eee;}h2 {padding-bottom: .3em;margin: 1em 0;font-size: 1.75em;line-height: 1.225;border-bottom: 1px solid #eee;}h3 {font-size: 1.5em;line-height: 1.43;}h4 {font-size: 1.25em;}h5 {font-size: 1em;}h6 {font-size: 1em;color: #777;}p,blockquote,ul,ol,dl,table {margin: 0.8em 0;}li>ol,li>ul {margin: 0 0;}hr {height: 2px;padding: 0;margin: 16px 0;background-color: #e7e7e7;border: 0 none;overflow: hidden;box-sizing: content-box;}li p.first {display: inline-block;}ul,ol {padding-left: 30px;}ul:first-child,ol:first-child {margin-top: 0;}ul:last-child,ol:last-child {margin-bottom: 0;}blockquote {border-left: 4px solid #dfe2e5;padding: 0 15px;color: #777777;}blockquote blockquote {padding-right: 0;}table {padding: 0;word-break: initial;}table tr {border-top: 1px solid #dfe2e5;margin: 0;padding: 0;}table tr:nth-child(2n),thead {background-color: #f8f8f8;}table tr th {font-weight: bold;border: 1px solid #dfe2e5;border-bottom: 0;margin: 0;padding: 6px 13px;}table tr td {border: 1px solid #dfe2e5;margin: 0;padding: 6px 13px;}table tr th:first-child,table tr td:first-child {margin-top: 0;}table tr th:last-child,table tr td:last-child {margin-bottom: 0;}.CodeMirror-lines {padding-left: 4px;}.code-tooltip {box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);border-top: 1px solid #eef2f2;}.md-fences,code,tt {border: 1px solid #e7eaed;background-color: #f8f8f8;border-radius: 3px;padding: 0;padding: 2px 4px 0px 4px;font-size: 0.9em;}code {background-color: #f3f4f4;padding: 0 2px 0 2px;}.md-fences {margin-bottom: 15px;margin-top: 15px;padding-top: 8px;padding-bottom: 6px;}.md-task-list-item>input {margin-left: -1.3em;}@media print {html {font-size: 13px;}table,pre {page-break-inside: avoid;}pre {word-wrap: break-word;}}.md-fences {background-color: #f8f8f8;}#write pre.md-meta-block {padding: 1rem;font-size: 85%;line-height: 1.45;background-color: #f7f7f7;border: 0;border-radius: 3px;color: #777777;margin-top: 0 !important;}.mathjax-block>.code-tooltip {bottom: .375rem;}.md-mathjax-midline {background: #fafafa;}#write>h3.md-focus:before {left: -1.5625rem;top: .375rem;}#write>h4.md-focus:before {left: -1.5625rem;top: .285714286rem;}#write>h5.md-focus:before {left: -1.5625rem;top: .285714286rem;}#write>h6.md-focus:before {left: -1.5625rem;top: .285714286rem;}.md-image>.md-meta {/*border: 1px solid #ddd;*/border-radius: 3px;padding: 2px 0px 0px 4px;font-size: 0.9em;color: inherit;}.md-tag {color: #a7a7a7;opacity: 1;}.md-toc {margin-top: 20px;padding-bottom: 20px;}.sidebar-tabs {border-bottom: none;}#typora-quick-open {border: 1px solid #ddd;background-color: #f8f8f8;}#typora-quick-open-item {background-color: #FAFAFA;border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;border-style: solid;border-width: 1px;}/** focus mode */.on-focus-mode blockquote {border-left-color: rgba(85, 85, 85, 0.12);}header,.context-menu,.megamenu-content,footer {font-family: "Segoe UI", "Arial", sans-serif;}.file-node-content:hover .file-node-icon,.file-node-content:hover .file-node-open-state {visibility: visible;}.mac-seamless-mode #typora-sidebar {background-color: #fafafa;background-color: var(--side-bar-bg-color);}.md-lang {color: #b4654d;}.html-for-mac .context-menu {--item-hover-bg-color: #E6F0FE;}#md-notification .btn {border: 0;}.dropdown-menu .divider {border-color: #e5e5e5;}.ty-preferences .window-content {background-color: #fafafa;}.ty-preferences .nav-group-item.active {color: white;background: #999;}.typora-export li,.typora-export p,.typora-export,.footnote-line {white-space: normal;}</style></head><body class='typora-export'><div id='write' class='is-mac'><h1 style="text-align: center"><a name="poseidon-privacy-policy" class="md-header-anchor"></a><span>POSEIDON Privacy Policy</span></h1><p><strong><span>Last Updated: Sep 10, 2019.</span></strong><p><strong><span>Dear Users,</span></strong><p><strong><span>POSEIDON WAVE FOUNDATION PTE. LTD. (“Company”, “we”, “us”, or “our”) respects and protects theprivacy of Users (“you”, “your” or “Users”). The Company will collect, use, disclose and process your PersonalInformation, in accordance with this Privacy Policy (“Policy”) when you:</span></strong><p><strong><span>(a) access or use our website and mobile applications (“Applications”) and services;and/or</span></strong><p><strong><span>(b) provide us with your Personal Information, regardless or the medium through which such PersonalInformation is provided.</span></strong><p><strong><span>The Company recommends that you shall carefully read and understand the whole contents of thisPolicy before your use of the Applications. Additionally, significant information including the Disclaimer isin bold form in this Policy. Definitions of key words in this Policy are consistent with those in the POSEIDONTerms of Service of the Company. If there is any discrepancy between the definitions of any defined term usedin this Policy and the POSEIDON Terms of Service , the definition of any defined term used in this Policyshall prevail.</span></strong><p><strong><span>By providing us with your Personal Information, you consent to our collection, use, disclosure(including transfer) and processing of your Personal Information in accordance with this Policy. Please DO NOTprovide any Personal Information to us if you do not accept this Policy.</span></strong><p><strong><span>The Company reserves the right to update this Policy online from time to time, without notice toyou, and the revised Policy will come into effect and supersede the older versions once posted on ourApplications. The revised Policy will apply to Personal Information provided to us previously. In particular,if you do not accept the revised Policy, please immediately stop your use of the Applications. Your continuoususe of our Applications will be regarded as your acceptance of the revised policy.</span></strong><h2><a name="1-information-we-collect" class="md-header-anchor"></a><span>1. Information We Collect</span></h2><ul><li><p><span>1.1 We collect your Personal Information, including but not limited to your mobile device information,operation records, transaction records and wallet addresses.</span><li><p><span>1.2 You confirm that your Wallet Password, Private Key, Mnemonic Words, Keystore on the Applicationsare not stored or synchronized on the Company’ servers. The Company does not offer the service to recoveryour Wallet Password, Private Key, Mnemonic Words or Keystore.</span><li><p><span>1.3 We may also request for you to provide us with additional Personal Information in order for us toenable your use of any specific functions of the Applications. Your refusal to provide us with the requestedPersonal Information will be considered as your choice to not use a particular specific function of theApplications.</span><li><p><span>1.4 To the extent permitted by applicable laws and regulations, the Company may collect and use thePersonal Information in the following circumstances without your prior consent or authorization:</span><li><p><span>1.5 To the extent permitted by applicable laws and regulations, the Company may collect and use thePersonal Information in the following circumstances without your prior consent or authorization:</span><ul><li><span>1.5.1 information related to national security and national defense;</span><li><span>1.5.2 information related to public security, public health, significant public interests;</span><li><span>1.5.3 information related to criminal investigation, prosecution, trial and enforcement;</span><li><span>1.5.4 Personal Information in the public domain;</span><li><span>1.5.5 Personal Information collected from legally publicly disclosed information, such as legal newsreports, government information disclosure and other channels;</span><li><span>1.5.6 Personal Information necessary to maintain the security and compliance of services, such as todetect or to solve the malfunction of products and services; and/or</span><li><span>1.5.7 other circumstances permitted by laws and regulations.</span></ul><li><p><span>1.6 We collect information in the following ways:</span><ul><li><span>1.6.1 when you provide us with your Personal Information for whatever reasons;</span><li><span>1.6.2 when you authorize us to obtain your Personal Information from a third party;</span><li><span>1.6.3 when you register for a user account on our Applications;</span><li><span>1.6.4 when you contact us or interact with our employees through various communication channels, forexample, through social media platforms, messenger platforms, face-to-face meetings, telephone calls,emails, fax and letters;</span><li><span>1.6.5 when you transact with us, contact us or request that we contact you;</span><li><span>1.6.6 when you request to be included in an email or our mailing list; and/or</span><li><span>1.6.7 when we copy all or part of your transaction records on the blockchain. However, you shouldrefer to the blockchain system for your latest transaction records.</span></ul><li><p><span>1.7 Our Applications may contain certain technologies that collect Personal Information in the mannerdescribed in this Policy (see paragraph 5 below) or the applicable terms and conditions.</span><li><p><span>1.8 Your provision of Personal Information to us is voluntary and you may withdraw your consent for usto use your Personal Information at any time. However, if you choose not to provide us with the PersonalInformation we require, it may not be possible for you to use the Applications or for us to contact you, orprovide products or services which you need from us.</span><li><p><span>1.9 In certain circumstances, you may also provide us with the Personal Information of persons otherthan yourself. If you do so, you warrant that you have informed him/her of the purposes for which we arecollecting his/her Personal Information and that he/she has consented to your disclosure of his/her PersonalInformation to us for those purposes. You agree to indemnify and hold us harmless from and against any andall claims by such individuals relating to our collection, use and disclosure of such Personal Informationin accordance with the terms of this Policy.</span><li><p><span>1.10 You are responsible for ensuring that all Personal Information that you provide to us is true,accurate and complete. You are responsible for informing us of any changes to your PersonalInformation.</span></ul><h2><a name="2-how-we-use-your-information" class="md-header-anchor"></a><span>2. How We Use Your Information</span></h2><ul><li><p><span>2.1 We collect, use or disclose your Personal Information for one or more of the followingpurposes:</span><ul><li><span>2.1.1 to provide you with products and/or services that you request for;</span><li><span>2.1.2 to manage your relationship with us;</span><li><span>2.1.3 to facilitate your use of our Applications;</span><li><span>2.1.4 to associate you with your wallet by the unique serial number of your mobile device;</span><li><span>2.1.5 to push important notifications to you, such as software update, update of Terms of Serviceand this Policy;</span><li><span>2.1.6 to assist with your enquiries, feedback, complaints and requests by using the Wallet Addressand the mobile device information provided by you;</span><li><span>2.1.7 to notify you of our products, services, programmes and events;</span><li><span>2.1.8 to resolve any disputes, investigating any complaint, claim or dispute or any actual orsuspected illegal or unlawful conduct;</span><li><span>2.1.9 to conduct user behavior tracking by tracking the Users’ use of the Applications;</span><li><span>2.1.10 to comply with our obligations in accordance with laws, regulations and to cooperate withregulatory authorities;</span><li><span>2.1.11 to comply with international sanctions and applicable regulation for securities and tocounter money-laundering or financing of terrorism;</span><li><span>2.1.12 to enforce obligations owed to us, and contractual terms and conditions; and/or</span><li><span>2.1.13 any other reasonable purposes related to the aforesaid.</span></ul><li><p><span>2.3 We offer you the “Touch ID/Face ID” option in the “Settings” column of the POSEIDON to provide youwith a convenient way to manage your digital Tokens.</span><li><p><span>2.4 We offer you the “Payment without Password” option in the POSEIDON. The Payment without Passwordfunction stores your Wallet Password in the Keychain/Keystore of your mobile devices via secure encryptionalgorithm. Your biological identification (Touch ID or Face ID) and authentication are called whenconducting transactions, in order to quickly complete payment and signature.</span></ul><h2><a name="3-how-you-control-your-own-information" class="md-header-anchor"></a><span>3. How You Control Your OwnInformation</span></h2><p><span>You are entitled to control your Personal Information provided to POSEIDON.</span><ul><li><p><span>3.1 You may import your other wallets into POSEIDON through synchronization of wallets and you mayexport your wallets from POSEIDON to other Tokens management wallets. POSEIDON will display the informationof imported wallets to you.</span><li><p><span>3.2 You may add or delete Tokens, transfer and collect Tokens using the “Assets” column.</span><li><p><span>3.3 You understand that you may handle the following operations in the “Profile” column onPOSEIDON:</span><ul><li><span>3.3.1 in the “Settings” column, you may choose not to open “Touch ID/Face ID”, which means you mayrefuse to use the Touch ID/Face ID verification service;</span><li><span>3.3.2 in the “Feedback” column, you may submit any questions or suggestions for POSEIDON at anytime. We are glad to communicate with you to improve our services.</span></ul><li><p><span>3.4 You acknowledge that you may choose not to open “Payment without Password”, which means you mayrefuse to call your biological identification (Touch ID/Face ID) and authentication when conductingtransactions.</span><li><p><span>3.5 You acknowledge that since blockchain is an open source system, your transaction records areautomatically public and transparent in the whole blockchain.</span><li><p><span>3.6 Our Applications may contain links to other websites, applications or Smart Contracts that are notowned, operated, developed or maintained by us. These links are provided only for your convenience. ThisPolicy only applies to our Applications. When using Third-Party Service, you understand that the POSEIDONTerms of Service and POSEIDON Privacy Policy will no longer apply. You are encouraged to carefully reviewtheir privacy policies and related terms of service.</span><li><p><span>3.7 You are entitled to ask us to update, revise, and delete your Personal Information and/or withdrawany consent provided to us. If you wish to withdraw any consent you have given us at any time, or if youwish to update, revise, delete or have access to your Personal Information held by us, or if you do notaccept any amendment to this Policy, please contact us at:</span><span>Name: WeiHao Xia</span><span>Email: </span><a href='mailto: support@pose.dev'><span>support@pose.dev</span></a><li><p><span>3.8 We may charge you a fee for responding to your request for access to your Personal Information heldby us, or for information about the ways in which we have (or may have) used your Personal Information inthe one-year period preceding your request. If a fee is to be charged, we will inform you of the amountbeforehand and respond to your request after payment is received. We will endeavour to respond to yourrequest within thirty (30) days, and if that is not possible, we will inform you of the time by which wewill respond to you.</span><li><p><span>3.9 In many circumstances, we need to use your Personal Information in order for us to provide you withproducts or services that you require. If you do not provide us with the required Personal Information, orif you withdraw your consent to our use and/or disclosure of your Personal Information for these purposes,it may not be possible for us to continue to serve you or provide you with the products and services thatyou require.</span></ul><h2><a name="4-information-we-may-share-or-transfer" class="md-header-anchor"></a><span>4. Information We may Shareor Transfer</span></h2><ul><li><p><span>4.1 We will keep your Personal Information for so long as we need the Personal Information for ourbusiness and legal purposes.</span><li><p><span>4.2 We do not sell, trade or otherwise transfer your Personal Information to third parties without yourconsent.</span><li><p><span>4.3 If you have consented to our disclosure of your Personal Information to our strategic businesspartners and associates, we may disclose your Personal Information to them. They will use your PersonalInformation only for the purposes you have consented to.</span><li><p><span>4.4 You agree that we may disclose or share your Personal Information with third parties suchas:</span><ul><li><span>4.4.1 service providers and data processors working on our behalf and providing services to us suchas conducting know-your-clients checks, accounting, data processing or management services, websitehosting, maintenance and operation services, e-mail message services, analysis services, handling ofpayment transactions, marketing etc; and</span></ul><li><p><span>4.5 If we need to transfer your Personal Information to any country for the purposes set out above, weshall obtain your prior consent and ensure that the recipient of the Personal Information protects yourPersonal Information to the same level as we have committed to protecting your Personal Information. Wherethese countries or territories do not have personal data protection laws that are comparable to the lawsapplicable to our relationship with you, we will enter into legally enforceable agreements with therecipients.</span><li><p><span>4.6 The Company will not share with or transfer your Personal Information to any third party withoutyour prior consent, except for the following circumstances:</span><ul><li><span>4.6.1 the collected Personal Information is publicized by yourself;</span><li><span>4.6.2 the Personal Information is collected from public information which was legally disclosed,such as news (lawfully reported), government information disclosure and other channels;</span><li><span>4.6.3 in order to abide by applicable laws, regulations, legal procedures, and administrative orjudiciary authorities or to enforce our Policy or protect our or others’ rights, property orsafety;</span><li><span>4.6.4 in the case of mergers and acquisitions, if transfer of Personal Information is involved, theCompany may require the receivers of Personal Information to be continuously bound by this Policy.</span></ul></ul><h2><a name="5-automatic-data-collection-technologies" class="md-header-anchor"></a><span>5. Automatic DataCollection Technologies</span></h2><ul><li><p><span>5.1 We use Automatic Data Collection Technologies on our Applications. Examples of such technologiesinclude:</span><ul><li><span>5.1.1 Cookies (or browser cookies). Cookies are small text files which are set by a website orapplication operator so that your browser or device may be recognised. We may make use of cookies on ourApplications to store and track information such as the number of users and their frequency of use,profiles of users and their online preferences. Cookies do not capture information which would personallyidentify you, but the information collected may be used to assist us in analysing the usage of ourApplications and to improve your online experience with us. You can disable the cookies by changing thesetting on your browser. However, this may affect the functionality of the Applications.</span><li><span>5.1.2 Web analytics. Web analytics is the term given to a method for collecting and assessing thebehaviour of visitors to websites and mobile applications. This includes the analysis of traffic patternsin order, for example, to determine the frequency of visits to certain parts of a website or mobileapplication, or to find out what information and services our visitors are most interested in. The webanalytics services on our Applications are provided by third-party service providers.</span></ul></ul><h2><a name="6-how-we-protect-your-information" class="md-header-anchor"></a><span>6. How We Protect YourInformation</span></h2><ul><li><span>6.1 If the Company ceases operation, the Company will stop the collection of your Personal Information,and take steps to delete or anonymize your Personal Information held by us within a reasonable period.</span><li><span>6.2 To protect your Personal Information, the Company may adopt data security techniques, improveinternal compliance levels, provide security training for our staff, and set security authority for access torelevant data to protect your Personal Information.</span><li><span>6.3 We will send you messages about information security in the “Notifications” column and updatearticles concerning the use of wallets and information protection in the “Support” column on our Applicationsfor your reference.</span></ul><h2><a name="7-protection-for-the-minors" class="md-header-anchor"></a><span>7. Protection for the Minors</span></h2><p><span>The following special provisions apply to minors who are under the age of 18 years old:</span><ul><li><span>7.1 The minors shall not use POSEIDON without the guidance from their parents or guardians.</span><li><span>7.2 The parents and guardians of the minors shall provide guidance to the minors on using POSEIDON afterthey read this Policy, POSEIDON Terms of Service and other relevant rules.</span><li><span>7.3 POSEIDON will ensure the confidentiality and security of the minors’ Personal Information inaccordance with the applicable laws and regulations.</span></ul><h2><a name="8-disclaimer" class="md-header-anchor"></a><span>8. Disclaimer</span></h2><ul><li><span>8.1 After you use Third-Party Service, you acknowledge that this Policy no longer applies to thecollection, use, disclosure and transfer of your Personal Information by these third parties. The Company isunable to guarantee that these third parties will implement reasonable security measures to protect yourPersonal Information.</span><li><span>8.2 You are solely responsible for your use of Third-Party Service and agree that you will not hold theCompany liable for any damages incurred or injuries inflicted as a result of the collection, use, disclosureand transfer of your Personal Information by these third parties.</span><li><span>8.3 YOU ACKNOWLEDGE AND ACCEPT THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COMPANY WILLADOPT MEASURES AS REASONABLE AS POSSIBLE TO PROTECT YOUR PERSONAL INFORMATION UNDER CURRENT TECHNIQUES ON AN“AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS” BASIS, TO AVOID THE DISCLOSURE, TAMPERING OR DAMAGE OFINFORMATION. SINCE THE COMPANY TRANSFERS DATA WIRELESSLY, THE COMPANY MAKES NO GUARANTEE ON THE PRIVACY ANDSECURITY OF WIRELESS INTERNET DATA TRANSFERRING.</span></ul><h2><a name="9-miscellaneous" class="md-header-anchor"></a><span>9. Miscellaneous</span></h2><ul><li><p><span>9.1 You shall fully understand and conform to the laws, regulations and rules in your jurisdictionswhich are relevant to use of the services provided by the Company.</span><li><p><span>9.2 Governing Law and Dispute Resolution:</span><ul><li><span>9.2.1 This Policy shall be governed by and construed in accordance with the laws of the Republic ofSingapore.</span><li><span>9.2.2 In the event of any dispute arising out of or in connection with this Policy, including anyquestion regarding its existence, validity or termination, the Parties shall first seek settlement of thatdispute. In the event that such dispute is not resolved within a period of 30 days from the commencementof such settlement process, such dispute shall be referred to and finally be resolved by arbitration inSingapore in accordance with the rules of the Singapore International Arbitration Centre (“SIAC”) for thetime being in force, which rules are deemed to be incorporated by reference in this clause. The tribunalshall consist of a sole arbitrator to be appointed by the Chairman of the SIAC. The language of thearbitration shall be English. Each of the Parties irrevocably submits to the non-exclusive jurisdiction ofthe courts of Singapore to support and assist the arbitration process pursuant to the foregoing of thisparagraph, including if necessary the grant of interlocutory relief pending the outcome of thatprocess.</span></ul><li><p><span>9.3 You may access this Policy and other terms (e.g. POSEIDON Terms of Service) through ourApplications. We encourage you to check the POSEIDON Terms of Service and Policy of the Company each timeyou log onto our Applications.</span><li><p><span>9.4 Any translated versions of this Policy are provided for the convenience of Users, and are notintended to amend the original English version of this Policy. If there is any discrepancy between theEnglish version and non-English version of this Policy, the English version shall prevail.</span><li><p><span>9.5 This Policy shall become effective on Sep 10, 2019.</span><p>&nbsp;</ul><p style="text-align: center"><strong><span>As for any issues not covered in this Policy, you shall comply with theannouncements and relevant rules as updated by the Company from time to time.</span></strong><br><br><p style="text-align: right"><strong><span>POSEIDON WAVE FOUNDATION PTE. LTD.</span></strong></div></body></html>
+<!doctype html>
+<html>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width initial-scale=1'>
+	<title>pose_privacy_en</title>
+	<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext'
+		rel='stylesheet' type='text/css' />
+	<style type='text/css'>
+		html {
+			overflow-x: initial !important;
+		}
+
+		:root {
+			--bg-color: #ffffff;
+			--text-color: #333333;
+			--select-text-bg-color: #B5D6FC;
+			--select-text-font-color: auto;
+			--monospace: "Lucida Console", Consolas, "Courier", monospace;
+		}
+
+		html {
+			font-size: 14px;
+			background-color: var(--bg-color);
+			color: var(--text-color);
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+		}
+
+		body {
+			margin: 0px;
+			padding: 0px;
+			height: auto;
+			bottom: 0px;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			font-size: .875rem;
+			line-height: 1.42857143;
+			overflow-x: hidden;
+			background-image: inherit;
+			background-size: inherit;
+			background-attachment: inherit;
+			background-origin: inherit;
+			background-clip: inherit;
+			background-color: inherit;
+			tab-size: 4;
+			background-position: inherit inherit;
+			background-repeat: inherit inherit;
+		}
+
+		iframe {
+			margin: auto;
+		}
+
+		a.url {
+			word-break: break-all;
+		}
+
+		a:active,
+		a:hover {
+			outline: 0px;
+		}
+
+		.in-text-selection,
+		::selection {
+			text-shadow: none;
+			background: var(--select-text-bg-color);
+			color: var(--select-text-font-color);
+		}
+
+		#write {
+			margin: 0px auto;
+			height: auto;
+			width: inherit;
+			word-break: normal;
+			word-wrap: break-word;
+			position: relative;
+			white-space: normal;
+			overflow-x: visible;
+			padding-top: 40px;
+		}
+
+		#write.first-line-indent p {
+			text-indent: 2em;
+		}
+
+		#write.first-line-indent li p,
+		#write.first-line-indent p * {
+			text-indent: 0px;
+		}
+
+		#write.first-line-indent li {
+			margin-left: 2em;
+		}
+
+		.for-image #write {
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+
+		body.typora-export {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.typora-export .footnote-line,
+		.typora-export li,
+		.typora-export p {
+			white-space: pre-wrap;
+		}
+
+		@media screen and (max-width: 500px) {
+			body.typora-export {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+
+			#write {
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+
+			.CodeMirror-sizer {
+				margin-left: 0px !important;
+			}
+
+			.CodeMirror-gutters {
+				display: none !important;
+			}
+		}
+
+		#write li>figure:last-child {
+			margin-bottom: 0.5rem;
+		}
+
+		#write ol,
+		#write ul {
+			position: relative;
+		}
+
+		img {
+			max-width: 100%;
+			vertical-align: middle;
+		}
+
+		button,
+		input,
+		select,
+		textarea {
+			color: inherit;
+			font-family: inherit;
+			font-size: inherit;
+			font-style: inherit;
+			font-variant-caps: inherit;
+			font-weight: inherit;
+			font-stretch: inherit;
+			line-height: inherit;
+		}
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			line-height: normal;
+			padding: 0px;
+		}
+
+		*,
+		::after,
+		::before {
+			box-sizing: border-box;
+		}
+
+		#write h1,
+		#write h2,
+		#write h3,
+		#write h4,
+		#write h5,
+		#write h6,
+		#write p,
+		#write pre {
+			width: inherit;
+		}
+
+		#write h1,
+		#write h2,
+		#write h3,
+		#write h4,
+		#write h5,
+		#write h6,
+		#write p {
+			position: relative;
+		}
+
+		p {
+			line-height: inherit;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			break-after: avoid-page;
+			break-inside: avoid;
+			orphans: 2;
+		}
+
+		p {
+			orphans: 4;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
+
+		h2 {
+			font-size: 1.8rem;
+		}
+
+		h3 {
+			font-size: 1.6rem;
+		}
+
+		h4 {
+			font-size: 1.4rem;
+		}
+
+		h5 {
+			font-size: 1.2rem;
+		}
+
+		h6 {
+			font-size: 1rem;
+		}
+
+		.md-math-block,
+		.md-rawblock,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		.md-blockmeta {
+			color: rgb(204, 204, 204);
+			font-weight: 700;
+			font-style: italic;
+		}
+
+		a {
+			cursor: pointer;
+		}
+
+		sup.md-footnote {
+			padding: 2px 4px;
+			background-color: rgba(238, 238, 238, 0.701961);
+			color: rgb(85, 85, 85);
+			border-top-left-radius: 4px;
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			border-bottom-left-radius: 4px;
+			cursor: pointer;
+		}
+
+		sup.md-footnote a,
+		sup.md-footnote a:hover {
+			color: inherit;
+			text-transform: inherit;
+			text-decoration: inherit;
+		}
+
+		#write input[type="checkbox"] {
+			cursor: pointer;
+			width: inherit;
+			height: inherit;
+		}
+
+		figure {
+			overflow-x: auto;
+			margin: 1.2em 0px;
+			max-width: calc(100% + 16px);
+			padding: 0px;
+		}
+
+		figure>table {
+			margin: 0px !important;
+		}
+
+		tr {
+			break-inside: avoid;
+			break-after: auto;
+		}
+
+		thead {
+			display: table-header-group;
+		}
+
+		table {
+			border-collapse: collapse;
+			border-spacing: 0px;
+			width: 100%;
+			overflow: auto;
+			break-inside: auto;
+			text-align: left;
+		}
+
+		table.md-table td {
+			min-width: 32px;
+		}
+
+		.CodeMirror-gutters {
+			border-right-width: 0px;
+			background-color: inherit;
+		}
+
+		.CodeMirror-linenumber {}
+
+		.CodeMirror {
+			text-align: left;
+		}
+
+		.CodeMirror-placeholder {
+			opacity: 0.3;
+		}
+
+		.CodeMirror pre {
+			padding: 0px 4px;
+		}
+
+		.CodeMirror-lines {
+			padding: 0px;
+		}
+
+		div.hr:focus {
+			cursor: none;
+		}
+
+		#write pre {
+			white-space: pre-wrap;
+		}
+
+		#write.fences-no-line-wrapping pre {
+			white-space: pre;
+		}
+
+		#write pre.ty-contain-cm {
+			white-space: normal;
+		}
+
+		.CodeMirror-gutters {
+			margin-right: 4px;
+		}
+
+		.md-fences {
+			font-size: 0.9rem;
+			display: block;
+			break-inside: avoid;
+			text-align: left;
+			overflow: visible;
+			white-space: pre;
+			background-image: inherit;
+			background-size: inherit;
+			background-attachment: inherit;
+			background-origin: inherit;
+			background-clip: inherit;
+			background-color: inherit;
+			position: relative !important;
+			background-position: inherit inherit;
+			background-repeat: inherit inherit;
+		}
+
+		.md-diagram-panel {
+			width: 100%;
+			margin-top: 10px;
+			text-align: center;
+			padding-top: 0px;
+			padding-bottom: 8px;
+			overflow-x: auto;
+		}
+
+		#write .md-fences.mock-cm {
+			white-space: pre-wrap;
+		}
+
+		.md-fences.md-fences-with-lineno {
+			padding-left: 0px;
+		}
+
+		#write.fences-no-line-wrapping .md-fences.mock-cm {
+			white-space: pre;
+			overflow-x: auto;
+		}
+
+		.md-fences.mock-cm.md-fences-with-lineno {
+			padding-left: 8px;
+		}
+
+		.CodeMirror-line,
+		twitterwidget {
+			break-inside: avoid;
+		}
+
+		.footnotes {
+			opacity: 0.8;
+			font-size: 0.9rem;
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+
+		.footnotes+.footnotes {
+			margin-top: 0px;
+		}
+
+		.md-reset {
+			margin: 0px;
+			padding: 0px;
+			border: 0px;
+			outline: 0px;
+			vertical-align: top;
+			text-decoration: none;
+			text-shadow: none;
+			float: none;
+			position: static;
+			width: auto;
+			height: auto;
+			white-space: nowrap;
+			cursor: inherit;
+			line-height: normal;
+			font-weight: 400;
+			text-align: left;
+			box-sizing: content-box;
+			direction: ltr;
+			background-position: 0px 0px;
+			background-repeat: initial initial;
+		}
+
+		li div {
+			padding-top: 0px;
+		}
+
+		blockquote {
+			margin: 1rem 0px;
+		}
+
+		li .mathjax-block,
+		li p {
+			margin: 0.5rem 0px;
+		}
+
+		li {
+			margin: 0px;
+			position: relative;
+		}
+
+		blockquote> :last-child {
+			margin-bottom: 0px;
+		}
+
+		blockquote> :first-child,
+		li> :first-child {
+			margin-top: 0px;
+		}
+
+		.footnotes-area {
+			color: rgb(136, 136, 136);
+			margin-top: 0.714rem;
+			padding-bottom: 0.143rem;
+			white-space: normal;
+		}
+
+		#write .footnote-line {
+			white-space: pre-wrap;
+		}
+
+		@media print {
+
+			body,
+			html {
+				border: 1px solid transparent;
+				height: 99%;
+				break-after: avoid-page;
+				break-before: avoid-page;
+			}
+
+			#write {
+				margin-top: 0px;
+				padding-top: 0px;
+				border-color: transparent !important;
+			}
+
+			.typora-export * {
+				-webkit-print-color-adjust: exact;
+			}
+
+			html.blink-to-pdf {
+				font-size: 13px;
+			}
+
+			.typora-export #write {
+				padding-left: 32px;
+				padding-right: 32px;
+				padding-bottom: 0px;
+				break-after: avoid-page;
+			}
+
+			.typora-export #write::after {
+				height: 0px;
+			}
+		}
+
+		.footnote-line {
+			margin-top: 0.714em;
+			font-size: 0.7em;
+		}
+
+		a img,
+		img a {
+			cursor: pointer;
+		}
+
+		pre.md-meta-block {
+			font-size: 0.8rem;
+			min-height: 0.8rem;
+			white-space: pre-wrap;
+			background-color: rgb(204, 204, 204);
+			display: block;
+			overflow-x: hidden;
+			background-position: initial initial;
+			background-repeat: initial initial;
+		}
+
+		p>.md-image:only-child:not(.md-img-error) img,
+		p>img:only-child {
+			display: block;
+			margin: auto;
+		}
+
+		p>.md-image:only-child {
+			display: inline-block;
+			width: 100%;
+		}
+
+		#write .MathJax_Display {
+			margin: 0.8em 0px 0px;
+		}
+
+		.md-math-block {
+			width: 100%;
+		}
+
+		.md-math-block:not(:empty)::after {
+			display: none;
+		}
+
+		[contenteditable="true"]:active,
+		[contenteditable="true"]:focus {
+			outline: 0px;
+			box-shadow: none;
+		}
+
+		.md-task-list-item {
+			position: relative;
+			list-style-type: none;
+		}
+
+		.task-list-item.md-task-list-item {
+			padding-left: 0px;
+		}
+
+		.md-task-list-item>input {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			margin-left: -1.2em;
+			margin-top: calc(1em - 10px);
+			border: none;
+		}
+
+		.math {
+			font-size: 1rem;
+		}
+
+		.md-toc {
+			min-height: 3.58rem;
+			position: relative;
+			font-size: 0.9rem;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			border-bottom-right-radius: 10px;
+			border-bottom-left-radius: 10px;
+		}
+
+		.md-toc-content {
+			position: relative;
+			margin-left: 0px;
+		}
+
+		.md-toc-content::after,
+		.md-toc::after {
+			display: none;
+		}
+
+		.md-toc-item {
+			display: block;
+			color: rgb(65, 131, 196);
+		}
+
+		.md-toc-item a {
+			text-decoration: none;
+		}
+
+		.md-toc-inner:hover {
+			text-decoration: underline;
+		}
+
+		.md-toc-inner {
+			display: inline-block;
+			cursor: pointer;
+		}
+
+		.md-toc-h1 .md-toc-inner {
+			margin-left: 0px;
+			font-weight: 700;
+		}
+
+		.md-toc-h2 .md-toc-inner {
+			margin-left: 2em;
+		}
+
+		.md-toc-h3 .md-toc-inner {
+			margin-left: 4em;
+		}
+
+		.md-toc-h4 .md-toc-inner {
+			margin-left: 6em;
+		}
+
+		.md-toc-h5 .md-toc-inner {
+			margin-left: 8em;
+		}
+
+		.md-toc-h6 .md-toc-inner {
+			margin-left: 10em;
+		}
+
+		@media screen and (max-width: 48em) {
+			.md-toc-h3 .md-toc-inner {
+				margin-left: 3.5em;
+			}
+
+			.md-toc-h4 .md-toc-inner {
+				margin-left: 5em;
+			}
+
+			.md-toc-h5 .md-toc-inner {
+				margin-left: 6.5em;
+			}
+
+			.md-toc-h6 .md-toc-inner {
+				margin-left: 8em;
+			}
+		}
+
+		a.md-toc-inner {
+			font-size: inherit;
+			font-style: inherit;
+			font-weight: inherit;
+			line-height: inherit;
+		}
+
+		.footnote-line a:not(.reversefootnote) {
+			color: inherit;
+		}
+
+		.md-attr {
+			display: none;
+		}
+
+		.md-fn-count::after {
+			content: ".";
+		}
+
+		code,
+		pre,
+		samp,
+		tt {
+			font-family: var(--monospace);
+		}
+
+		kbd {
+			margin: 0px 0.1em;
+			padding: 0.1em 0.6em;
+			font-size: 0.8em;
+			color: rgb(36, 39, 41);
+			background-color: rgb(255, 255, 255);
+			border: 1px solid rgb(173, 179, 185);
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+			border-bottom-left-radius: 3px;
+			box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset;
+			white-space: nowrap;
+			vertical-align: middle;
+			background-position: initial initial;
+			background-repeat: initial initial;
+		}
+
+		.md-comment {
+			color: rgb(162, 127, 3);
+			opacity: 0.8;
+			font-family: var(--monospace);
+		}
+
+		code {
+			text-align: left;
+		}
+
+		a.md-print-anchor {
+			white-space: pre !important;
+			border: none !important;
+			display: inline-block !important;
+			position: absolute !important;
+			width: 1px !important;
+			right: 0px !important;
+			outline: 0px !important;
+			text-shadow: initial !important;
+			background-position: 0px 0px !important;
+			background-repeat: initial initial !important;
+		}
+
+		.md-inline-math .MathJax_SVG .noError {
+			display: none !important;
+		}
+
+		.html-for-mac .inline-math-svg .MathJax_SVG {
+			vertical-align: 0.2px;
+		}
+
+		.md-math-block .MathJax_SVG_Display {
+			text-align: center;
+			margin: 0px;
+			position: relative;
+			text-indent: 0px;
+			max-width: none;
+			max-height: none;
+			min-height: 0px;
+			min-width: 100%;
+			width: auto;
+			overflow-y: hidden;
+			display: block !important;
+		}
+
+		.MathJax_SVG_Display,
+		.md-inline-math .MathJax_SVG_Display {
+			width: auto;
+			margin: inherit;
+			display: inline-block !important;
+		}
+
+		.MathJax_SVG .MJX-monospace {
+			font-family: var(--monospace);
+		}
+
+		.MathJax_SVG .MJX-sans-serif {
+			font-family: sans-serif;
+		}
+
+		.MathJax_SVG {
+			display: inline;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			zoom: 90%;
+			text-indent: 0px;
+			text-align: left;
+			text-transform: none;
+			letter-spacing: normal;
+			word-spacing: normal;
+			word-wrap: normal;
+			white-space: nowrap;
+			float: none;
+			direction: ltr;
+			max-width: none;
+			max-height: none;
+			min-width: 0px;
+			min-height: 0px;
+			border: 0px;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.MathJax_SVG * {
+			transition: none;
+		}
+
+		.MathJax_SVG_Display svg {
+			vertical-align: middle !important;
+			margin-bottom: 0px !important;
+			margin-top: 0px !important;
+		}
+
+		.os-windows.monocolor-emoji .md-emoji {
+			font-family: "Segoe UI Symbol", sans-serif;
+		}
+
+		.md-diagram-panel>svg {
+			max-width: 100%;
+		}
+
+		[lang="mermaid"] svg,
+		[lang="flow"] svg {
+			max-width: 100%;
+			height: auto;
+		}
+
+		[lang="mermaid"] .node text {
+			font-size: 1rem;
+		}
+
+		table tr th {
+			border-bottom-width: 0px;
+		}
+
+		video {
+			max-width: 100%;
+			display: block;
+			margin: 0px auto;
+		}
+
+		iframe {
+			max-width: 100%;
+			width: 100%;
+			border: none;
+		}
+
+		.highlight td,
+		.highlight tr {
+			border: 0px;
+		}
+
+		:root {
+			--side-bar-bg-color: #fafafa;
+			--control-text-color: #777;
+		}
+
+		@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+		html {
+			font-size: 16px;
+		}
+
+		body {
+			font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: rgb(51, 51, 51);
+			line-height: 1.6;
+		}
+
+		#write {
+			max-width: 860px;
+			margin: 0 auto;
+			padding: 30px;
+			padding-bottom: 100px;
+		}
+
+		#write>ul:first-child,
+		#write>ol:first-child {
+			margin-top: 30px;
+		}
+
+		a {
+			color: #4183C4;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			position: relative;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			font-weight: bold;
+			line-height: 1.4;
+			cursor: text;
+		}
+
+		h1:hover a.anchor,
+		h2:hover a.anchor,
+		h3:hover a.anchor,
+		h4:hover a.anchor,
+		h5:hover a.anchor,
+		h6:hover a.anchor {
+			text-decoration: none;
+		}
+
+		h1 tt,
+		h1 code {
+			font-size: inherit;
+		}
+
+		h2 tt,
+		h2 code {
+			font-size: inherit;
+		}
+
+		h3 tt,
+		h3 code {
+			font-size: inherit;
+		}
+
+		h4 tt,
+		h4 code {
+			font-size: inherit;
+		}
+
+		h5 tt,
+		h5 code {
+			font-size: inherit;
+		}
+
+		h6 tt,
+		h6 code {
+			font-size: inherit;
+		}
+
+		h1 {
+			padding-bottom: .3em;
+			font-size: 2.25em;
+			line-height: 1.2;
+			border-bottom: 1px solid #eee;
+		}
+
+		h2 {
+			padding-bottom: .3em;
+			margin: 1em 0;
+			font-size: 1.75em;
+			line-height: 1.225;
+			border-bottom: 1px solid #eee;
+		}
+
+		h3 {
+			font-size: 1.5em;
+			line-height: 1.43;
+		}
+
+		h4 {
+			font-size: 1.25em;
+		}
+
+		h5 {
+			font-size: 1em;
+		}
+
+		h6 {
+			font-size: 1em;
+			color: #777;
+		}
+
+		p,
+		blockquote,
+		ul,
+		ol,
+		dl,
+		table {
+			margin: 0.8em 0;
+		}
+
+		li>ol,
+		li>ul {
+			margin: 0 0;
+		}
+
+		hr {
+			height: 2px;
+			padding: 0;
+			margin: 16px 0;
+			background-color: #e7e7e7;
+			border: 0 none;
+			overflow: hidden;
+			box-sizing: content-box;
+		}
+
+		li p.first {
+			display: inline-block;
+		}
+
+		ul,
+		ol {
+			padding-left: 30px;
+		}
+
+		ul:first-child,
+		ol:first-child {
+			margin-top: 0;
+		}
+
+		ul:last-child,
+		ol:last-child {
+			margin-bottom: 0;
+		}
+
+		blockquote {
+			border-left: 4px solid #dfe2e5;
+			padding: 0 15px;
+			color: #777777;
+		}
+
+		blockquote blockquote {
+			padding-right: 0;
+		}
+
+		table {
+			padding: 0;
+			word-break: initial;
+		}
+
+		table tr {
+			border-top: 1px solid #dfe2e5;
+			margin: 0;
+			padding: 0;
+		}
+
+		table tr:nth-child(2n),
+		thead {
+			background-color: #f8f8f8;
+		}
+
+		table tr th {
+			font-weight: bold;
+			border: 1px solid #dfe2e5;
+			border-bottom: 0;
+			margin: 0;
+			padding: 6px 13px;
+		}
+
+		table tr td {
+			border: 1px solid #dfe2e5;
+			margin: 0;
+			padding: 6px 13px;
+		}
+
+		table tr th:first-child,
+		table tr td:first-child {
+			margin-top: 0;
+		}
+
+		table tr th:last-child,
+		table tr td:last-child {
+			margin-bottom: 0;
+		}
+
+		.CodeMirror-lines {
+			padding-left: 4px;
+		}
+
+		.code-tooltip {
+			box-shadow: 0 1px 1px 0 rgba(0, 28, 36, .3);
+			border-top: 1px solid #eef2f2;
+		}
+
+		.md-fences,
+		code,
+		tt {
+			border: 1px solid #e7eaed;
+			background-color: #f8f8f8;
+			border-radius: 3px;
+			padding: 0;
+			padding: 2px 4px 0px 4px;
+			font-size: 0.9em;
+		}
+
+		code {
+			background-color: #f3f4f4;
+			padding: 0 2px 0 2px;
+		}
+
+		.md-fences {
+			margin-bottom: 15px;
+			margin-top: 15px;
+			padding-top: 8px;
+			padding-bottom: 6px;
+		}
+
+		.md-task-list-item>input {
+			margin-left: -1.3em;
+		}
+
+		@media print {
+			html {
+				font-size: 13px;
+			}
+
+			table,
+			pre {
+				page-break-inside: avoid;
+			}
+
+			pre {
+				word-wrap: break-word;
+			}
+		}
+
+		.md-fences {
+			background-color: #f8f8f8;
+		}
+
+		#write pre.md-meta-block {
+			padding: 1rem;
+			font-size: 85%;
+			line-height: 1.45;
+			background-color: #f7f7f7;
+			border: 0;
+			border-radius: 3px;
+			color: #777777;
+			margin-top: 0 !important;
+		}
+
+		.mathjax-block>.code-tooltip {
+			bottom: .375rem;
+		}
+
+		.md-mathjax-midline {
+			background: #fafafa;
+		}
+
+		#write>h3.md-focus:before {
+			left: -1.5625rem;
+			top: .375rem;
+		}
+
+		#write>h4.md-focus:before {
+			left: -1.5625rem;
+			top: .285714286rem;
+		}
+
+		#write>h5.md-focus:before {
+			left: -1.5625rem;
+			top: .285714286rem;
+		}
+
+		#write>h6.md-focus:before {
+			left: -1.5625rem;
+			top: .285714286rem;
+		}
+
+		.md-image>.md-meta {
+			/*border: 1px solid #ddd;*/
+			border-radius: 3px;
+			padding: 2px 0px 0px 4px;
+			font-size: 0.9em;
+			color: inherit;
+		}
+
+		.md-tag {
+			color: #a7a7a7;
+			opacity: 1;
+		}
+
+		.md-toc {
+			margin-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		.sidebar-tabs {
+			border-bottom: none;
+		}
+
+		#typora-quick-open {
+			border: 1px solid #ddd;
+			background-color: #f8f8f8;
+		}
+
+		#typora-quick-open-item {
+			background-color: #FAFAFA;
+			border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+			border-style: solid;
+			border-width: 1px;
+		}
+
+		/** focus mode */
+		.on-focus-mode blockquote {
+			border-left-color: rgba(85, 85, 85, 0.12);
+		}
+
+		header,
+		.context-menu,
+		.megamenu-content,
+		footer {
+			font-family: "Segoe UI", "Arial", sans-serif;
+		}
+
+		.file-node-content:hover .file-node-icon,
+		.file-node-content:hover .file-node-open-state {
+			visibility: visible;
+		}
+
+		.mac-seamless-mode #typora-sidebar {
+			background-color: #fafafa;
+			background-color: var(--side-bar-bg-color);
+		}
+
+		.md-lang {
+			color: #b4654d;
+		}
+
+		.html-for-mac .context-menu {
+			--item-hover-bg-color: #E6F0FE;
+		}
+
+		#md-notification .btn {
+			border: 0;
+		}
+
+		.dropdown-menu .divider {
+			border-color: #e5e5e5;
+		}
+
+		.ty-preferences .window-content {
+			background-color: #fafafa;
+		}
+
+		.ty-preferences .nav-group-item.active {
+			color: white;
+			background: #999;
+		}
+
+		.typora-export li,
+		.typora-export p,
+		.typora-export,
+		.footnote-line {
+			white-space: normal;
+		}
+	</style>
+</head>
+
+<body class='typora-export'>
+		<div id='write' class='is-mac'>
+				<h1 style="text-align: center"><a name="terms-of-service" class="md-header-anchor"></a><span>Terms of Service</span></h1>
+				<p><strong><span>Last Updated: Sep 10, 2019</span></strong>
+				<p><strong><span>These terms of service (the “Terms”) are a binding agreement between person, persons, or entities
+							(“you” or “your”) using POSEIDON WAVE FOUNDATION PTE. LTD. (“POSEIDON”) websites (the “Sites”) or POSEIDON’s
+							POSEIDON Wallet, the Terms govern your access and use of the Sites or POSEIDON Wallet. When you use the Sites
+							or POSEIDON Wallet you are accepting these Terms, and acknowledge that you have read, understood, and agreed
+							to be bound these Terms.</span></strong>
+				<p><strong><span>POSEIDON reserves the right, in its sole discretion, without any obligation and without any notice
+							to you, to change, improve or correct the information, materials and descriptions on the Sites or POSEIDON
+							Wallet, and to suspend and/or deny access to the Sites for scheduled or unscheduled maintenance, upgrades,
+							improvements, or corrections. The information and materials on the Sites may contain typographical errors or
+							inaccuracies. Any dated information is published as of its date only, and POSEIDON does not undertake any
+							obligation or responsibility to update or amend any such information. POSEIDON may discontinue or change any
+							product or service described in or offered on the Sites at any time.</span></strong>
+				<h2><a name="entire-agreement" class="md-header-anchor"></a><span>Entire Agreement</span></h2>
+				<p><span>These Terms constitutes the entire agreement between POSEIDON and you with respect to the Sites and the
+						POSEIDON Wallet and it supersedes all prior or contemporaneous communications, agreements and understandings
+						between POSEIDON and you with respect to the subject matter hereof.</span>
+				<p><strong><span>IF YOU DO NOT AGREE TO ALL OF THE TERMS AND CONDITIONS CONTAINED ON THIS PAGE, YOU MAY NOT ACCESS, BROWSE,
+						OR OTHERWISE USE THIS WEBSITE OR POSEIDON WALLET.</span></strong>
+				<h2><a name="use-limitations" class="md-header-anchor"></a><span>Use Limitations</span></h2>
+				<p><span>All right, title, and interest in the Sites and POSEIDON Wallet and the content of the Sites is either the
+						exclusive property of POSEIDON or presented on the Sites or POSEIDON Wallet subject to a license granting
+						POSEIDON the right to use or display the content. The Sites are intended for personal, non-commercial use. You
+						may print, copy, and download any information or portion of the Sites for your personal use only. You may not
+						modify, copy, distribute, transmit, display, perform, reproduce, publish, license, frame, create derivative
+						works from, transfer, or otherwise use in any other way for commercial or public purposes in whole or in part
+						any information, software, products, or services obtained from the Sites, except for the purposes expressly
+						provided herein, without POSEIDON’s prior written approval. Unauthorized use of the Sites and or any POSEIDON
+						systems, including, but not limited to, unauthorized entry into POSEIDON systems, misuse of passwords or misuse
+						of any other information, is strictly prohibited. You may not use the Sites in any manner that could damage,
+						disable, overburden, or impair any POSEIDON Sites or service or interfere with any other party&#39;s use and
+						enjoyment of any POSEIDON Sites or service. You may not attempt to gain unauthorized access to any POSEIDON
+						Sites or service, computer systems or networks connected to any POSEIDON Sites or service, through hacking,
+						password mining, or any other means. You agree that you will not engage in any activities related to the Sites
+						that are contrary to applicable laws or regulations.</span>
+				<p><span>You are prohibited from transmitting any unlawful, threatening, libelous, defamatory, obscene,
+						inflammatory, pornographic, or profane material or any material that could constitute or encourage conduct that
+						would be considered a criminal offense, give rise to civil liability, or would otherwise violate the law.
+						POSEIDON will fully cooperate with any law enforcement authorities or court order requesting or directing
+						POSEIDON to disclose the identity of anyone posting any such information or materials.</span>
+				<h2><a name="poseidon-wallet-transactions" class="md-header-anchor"></a><span>POSEIDON Wallet Transactions</span>
+				</h2>
+				<p><span>Transactions performed using POSEIDON Wallet are irreversible, and by using POSEIDON Wallet you acknowledge
+						and agree that POSEIDON, its affiliates, joint ventures, partners, employees, officers, or directors cannot
+						reserve or rescind a transaction initiated using POSEIDON Wallet. You further acknowledge and agree that
+						POSEIDON, its affiliates, joints ventures, partners, employees, officers, or directors cannot retrieve your
+						private cryptographic keys or passwords if you lose or forget them. Finally, by using POSEIDON Wallet, you
+						acknowledge and agree that POSEIDON Wallet cannot, does not, and has no ability to control the various
+						distributed ledger services, platforms, or technologies available to POSEIDON Wallet users for transactions,
+						and—accordingly—that POSEIDON Wallet cannot guarantee or certify transaction confirmations.</span>
+				<h2><a name="intellectual-property" class="md-header-anchor"></a><span>Intellectual Property</span></h2>
+				<p><span>POSEIDON retains all right, title, and interest in the content of the Sites and POSEIDON Wallet, all of
+						POSEIDON’s brands, logos, trademarks, trade names, and service marks (collectively the “Marks”). You are
+						prohibited from using any Marks for any purpose without the written permission of POSEIDON or such third party
+						which may own the Marks.</span>
+				<p><span>All information and content including its design, images, information, data pictures, text or software
+						programs, HTML, XML, and source and object code available on or through the POSEIDON Sites (&quot;Content&quot;)
+						is owned by POSEIDON and protected by all applicable copyright laws. You are prohibited from modifying, copying,
+						distributing, transmitting, displaying, publishing, selling, licensing, creating derivative works, or using any
+						Content available on or through the POSEIDON Sites for commercial or public purposes unless specifically allowed
+						herein.</span>
+				<h2><a name="links-to-other-sites" class="md-header-anchor"></a><span>Links To Other Sites</span></h2>
+				<p><span>The Sites may contain links to third party websites. Such links are provided only as a convenience. The
+						inclusion of any link is not and does not imply an affiliation, sponsorship, endorsement, approval,
+						investigation, verification, or monitoring by POSEIDON of any information contained in any third party website.
+						In no event shall POSEIDON be responsible for the information contained on that website or your use of or
+						inability to use such website. Access to any other internet website linked to the POSEIDON Sites is at your own
+						risk. You should be aware that linked websites may contain rules and regulations, privacy provisions,
+						confidentiality provisions, transmission of personal data provisions, and other provisions that differ from
+						those provided on POSEIDON’s Sites. POSEIDON is not responsible for such provisions, and expressly disclaims any
+						and all liability related to such provisions.</span>
+				<h2><a name="information-security-and-privacy" class="md-header-anchor"></a><span>Information Security and
+						Privacy</span></h2>
+				<p><span>POSEIDON takes the security of its Sites and POSEIDON Wallet very seriously, and has implemented
+						appropriate physical, technical and administrative controls to safeguard your information. Despite our efforts,
+						no information transmitted over the internet is completely secure, and by using the Sites or POSEIDON Wallet you
+						acknowledge that POSEIDON cannot guarantee that your Personal Information or other data will not be compromised,
+						stolen, or lost.</span>
+				<p><span>By using our Sites or POSEIDON Wallet you acknowledge that you have taken adequate steps to protect, backup
+						or otherwise secure information you share with POSEIDON either via the Sites or the POSEIDON Wallet. Such steps
+						include, but are not limited to: • Using an appropriate password or passphrase; • Not sharing your password or
+						passphrase with any other party; and • Maintaining a back-up of information stored in or on POSEIDON
+						Wallet.</span>
+				<p><span>BY USING OUR SITES OR POSEIDON WALLET, YOU FURTHER ACKNOWLEDGE AND AGREE THAT SHOULD YOU LOSE YOUR PASSWORD
+						OR ENCRYPTED KEYS STORED IN POSEIDON WALLET, POSEIDON HAS NO MEANS OF RECOVERING, RESTORING, OR ACCESSING THAT
+						INFORMATION WHICH WOULD RENDER CRYPTOCURRENCY STORED IN A POSEIDON WALLET INACCESSIBLE. POSEIDON also respects
+						your privacy. POSEIDON’s privacy policy may be found at here. POSEIDON’s privacy policy is incorporated into
+						these Terms and is made a part hereof.</span>
+				<h2><a name="no-warranties" class="md-header-anchor"></a><span>No Warranties</span></h2>
+				<p><span>The Sites and POSEIDON Wallet have been prepared for the purpose of (i) providing information about
+						POSEIDON, and its products and services, and (ii) providing custodial wallet services for cryptocurrencies via
+						the POSEIDON Wallet. Nothing on the Sites constitutes or is meant to constitute advice of any kind. You
+						understand and agree that digital currencies are experimental, non-regulated, bearer instruments that are
+						difficult to secure. You agree that there are risks associated with using a custodial wallet service including,
+						but not limited to, the risk of software or hardware failures, network failures, malicious software, and
+						unauthorized access to your Wallet by malicious intruders or hackers. You agree that we will not be responsible
+						for any communication failures, disruptions, errors, loss of data, or delays you may experience when using the
+						Services, however caused. Though we take what we consider appropriate steps to secure your accounts, we do not
+						warrant or guarantee that your digital currencies will be available to you for withdrawal or for
+						transactions.</span>
+				<p><span>You further agree that there are risks associated with using any digital currency network, including, but
+						not limited to, the risk of unknown vulnerabilities in or unanticipated changes to the digital currency network
+						and its processes. You agree that we have no control over any digital currency network and will not be
+						responsible for any harm occurring as a result of such risks.</span>
+				<p><span>POSEIDON does not warrant the quality, accuracy, or completeness of any claims, statements, or information
+						on the Sites. Further, POSEIDON makes no representations about the suitability of any of the information
+						contained on the Sites or any other website for any purpose. All information is provided &quot;as is&quot; and
+						“as available” without warranty or condition of any kind. In no event shall POSEIDON be liable for any damages
+						whatsoever, including special, indirect, or consequential damages, arising out of or in connection with the use
+						of content available on the Sites. Use of the Sites and any content displayed or made available herein shall be
+						at your own risk.</span>
+				<p><span>POSEIDON does not warrant the information or services governed by these Terms, either expressly or
+						impliedly, for any particular purpose and expressly disclaim any implied warranties, including but not limited
+						to, warranties of title, non-infringement, merchantability, or fitness for a particular purpose. POSEIDON will
+						not be responsible for any loss or damage that could result from interception by third parties of any
+						information or services made available to you via the Sites, or via POSEIDON Wallet. Neither POSEIDON, nor any
+						of its affiliates, subsidiaries, directors, officers, or employees, will be liable or have any responsibility of
+						any kind for any loss or damage that you incur in the event of any failure or interruption of the Sites or
+						POSEIDON Wallet, or resulting from the act or omission of any other party involved in making the Sites or
+						POSEIDON Wallet, the data contained therein, or the products or services offered on the Sites available to you,
+						or from any other cause relating to your access to, inability to access, or use of the Sites or these materials,
+						whether or not the circumstances giving rise to such cause may have been within the control of POSEIDON or of
+						any vendor providing software or services. In no event will POSEIDON or any such parties be liable to you,
+						whether in contract or tort, for any direct, special, indirect, consequential, or incidental damages or any
+						other damages of any kind even if POSEIDON or any other such party has been advised of the possibility thereof.
+						This limitation on liability includes, but is not limited to, the transmission of any viruses which may infect
+						your equipment, failure of mechanical or electronic equipment or communication lines, telephone or other
+						interconnect problems (e.g., you cannot access your internet service provider), unauthorized access, theft,
+						operator errors, strikes or other labor problems or any force majeure. POSEIDON cannot and does not guarantee
+						continuous, uninterrupted, or secure access to the Sites or POSEIDON Wallet.</span>
+				<h2><a name="force-majeure" class="md-header-anchor"></a><span>Force Majeure</span></h2>
+				<p><span>You agree that we will not be liable for delays, performance failures or service interruptions which result
+						directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to,
+						any delay or failure due to any act of God, act of civil or military authorities, act of terrorists, civil
+						disturbance, war, strike or other labor dispute, fire, interruption in telecommunications or internet services
+						or network provider services, failure of equipment and/or software, other catastrophe, or any other occurrence
+						which is beyond our reasonable control.</span>
+			</div>
+	<div id='write' class='is-mac'>
+		<h1 style="text-align: center"><a name="poseidon-privacy-policy" class="md-header-anchor"></a><span>Privacy
+				Policy</span></h1>
+		<p><strong><span>Last Updated: Sep 10, 2019.</span></strong>
+			<p><strong><span>Dear Users,</span></strong>
+				<p><strong><span>POSEIDON WAVE FOUNDATION PTE. LTD. (“Company”, “we”, “us”, or “our”) respects and protects
+							theprivacy of Users (“you”, “your” or “Users”). The Company will collect, use, disclose and process your
+							PersonalInformation, in accordance with this Privacy Policy (“Policy”) when you:</span></strong>
+					<p><strong><span>(a) access or use our website and mobile applications (“Applications”) and
+								services;and/or</span></strong>
+						<p><strong><span>(b) provide us with your Personal Information, regardless or the medium through which such
+									PersonalInformation is provided.</span></strong>
+							<p><strong><span>The Company recommends that you shall carefully read and understand the whole contents of
+										thisPolicy before your use of the Applications. Additionally, significant information including the
+										Disclaimer isin bold form in this Policy. Definitions of key words in this Policy are consistent
+										with those in the POSEIDONTerms of Service of the Company. If there is any discrepancy between the
+										definitions of any defined term usedin this Policy and the POSEIDON Terms of Service , the
+										definition of any defined term used in this Policyshall prevail.</span></strong>
+								<p><strong><span>By providing us with your Personal Information, you consent to our collection, use,
+											disclosure(including transfer) and processing of your Personal Information in accordance with this
+											Policy. Please DO NOTprovide any Personal Information to us if you do not accept this
+											Policy.</span></strong>
+									<p><strong><span>The Company reserves the right to update this Policy online from time to time,
+												without notice toyou, and the revised Policy will come into effect and supersede the older
+												versions once posted on ourApplications. The revised Policy will apply to Personal Information
+												provided to us previously. In particular,if you do not accept the revised Policy, please
+												immediately stop your use of the Applications. Your continuoususe of our Applications will be
+												regarded as your acceptance of the revised policy.</span></strong>
+										<h2><a name="1-information-we-collect" class="md-header-anchor"></a><span>1. Information We
+												Collect</span></h2>
+										<ul>
+											<li>
+												<p><span>1.1 We collect your Personal Information, including but not limited to your mobile
+														device information,operation records, transaction records and wallet addresses.</span>
+											<li>
+												<p><span>1.2 You confirm that your Wallet Password, Private Key, Mnemonic Words, Keystore on the
+														Applicationsare not stored or synchronized on the Company’ servers. The Company does not
+														offer the service to recoveryour Wallet Password, Private Key, Mnemonic Words or
+														Keystore.</span>
+											<li>
+												<p><span>1.3 We may also request for you to provide us with additional Personal Information in
+														order for us toenable your use of any specific functions of the Applications. Your refusal
+														to provide us with the requestedPersonal Information will be considered as your choice to
+														not use a particular specific function of theApplications.</span>
+											<li>
+												<p><span>1.4 To the extent permitted by applicable laws and regulations, the Company may collect
+														and use thePersonal Information in the following circumstances without your prior consent or
+														authorization:</span>
+											<li>
+												<p><span>1.5 To the extent permitted by applicable laws and regulations, the Company may collect
+														and use thePersonal Information in the following circumstances without your prior consent or
+														authorization:</span>
+													<ul>
+														<li><span>1.5.1 information related to national security and national defense;</span>
+														<li><span>1.5.2 information related to public security, public health, significant public
+																interests;</span>
+														<li><span>1.5.3 information related to criminal investigation, prosecution, trial and
+																enforcement;</span>
+														<li><span>1.5.4 Personal Information in the public domain;</span>
+														<li><span>1.5.5 Personal Information collected from legally publicly disclosed information,
+																such as legal newsreports, government information disclosure and other channels;</span>
+														<li><span>1.5.6 Personal Information necessary to maintain the security and compliance of
+																services, such as todetect or to solve the malfunction of products and services;
+																and/or</span>
+														<li><span>1.5.7 other circumstances permitted by laws and regulations.</span>
+													</ul>
+											<li>
+												<p><span>1.6 We collect information in the following ways:</span>
+													<ul>
+														<li><span>1.6.1 when you provide us with your Personal Information for whatever
+																reasons;</span>
+														<li><span>1.6.2 when you authorize us to obtain your Personal Information from a third
+																party;</span>
+														<li><span>1.6.3 when you register for a user account on our Applications;</span>
+														<li><span>1.6.4 when you contact us or interact with our employees through various
+																communication channels, forexample, through social media platforms, messenger platforms,
+																face-to-face meetings, telephone calls,emails, fax and letters;</span>
+														<li><span>1.6.5 when you transact with us, contact us or request that we contact you;</span>
+														<li><span>1.6.6 when you request to be included in an email or our mailing list;
+																and/or</span>
+														<li><span>1.6.7 when we copy all or part of your transaction records on the blockchain.
+																However, you shouldrefer to the blockchain system for your latest transaction
+																records.</span>
+													</ul>
+											<li>
+												<p><span>1.7 Our Applications may contain certain technologies that collect Personal Information
+														in the mannerdescribed in this Policy (see paragraph 5 below) or the applicable terms and
+														conditions.</span>
+											<li>
+												<p><span>1.8 Your provision of Personal Information to us is voluntary and you may withdraw your
+														consent for usto use your Personal Information at any time. However, if you choose not to
+														provide us with the PersonalInformation we require, it may not be possible for you to use
+														the Applications or for us to contact you, orprovide products or services which you need
+														from us.</span>
+											<li>
+												<p><span>1.9 In certain circumstances, you may also provide us with the Personal Information of
+														persons otherthan yourself. If you do so, you warrant that you have informed him/her of the
+														purposes for which we arecollecting his/her Personal Information and that he/she has
+														consented to your disclosure of his/her PersonalInformation to us for those purposes. You
+														agree to indemnify and hold us harmless from and against any andall claims by such
+														individuals relating to our collection, use and disclosure of such Personal Informationin
+														accordance with the terms of this Policy.</span>
+											<li>
+												<p><span>1.10 You are responsible for ensuring that all Personal Information that you provide to
+														us is true,accurate and complete. You are responsible for informing us of any changes to
+														your PersonalInformation.</span>
+										</ul>
+										<h2><a name="2-how-we-use-your-information" class="md-header-anchor"></a><span>2. How We Use Your
+												Information</span></h2>
+										<ul>
+											<li>
+												<p><span>2.1 We collect, use or disclose your Personal Information for one or more of the
+														followingpurposes:</span>
+													<ul>
+														<li><span>2.1.1 to provide you with products and/or services that you request for;</span>
+														<li><span>2.1.2 to manage your relationship with us;</span>
+														<li><span>2.1.3 to facilitate your use of our Applications;</span>
+														<li><span>2.1.4 to associate you with your wallet by the unique serial number of your mobile
+																device;</span>
+														<li><span>2.1.5 to push important notifications to you, such as software update, update of
+																Terms of Serviceand this Policy;</span>
+														<li><span>2.1.6 to assist with your enquiries, feedback, complaints and requests by using
+																the Wallet Addressand the mobile device information provided by you;</span>
+														<li><span>2.1.7 to notify you of our products, services, programmes and events;</span>
+														<li><span>2.1.8 to resolve any disputes, investigating any complaint, claim or dispute or
+																any actual orsuspected illegal or unlawful conduct;</span>
+														<li><span>2.1.9 to conduct user behavior tracking by tracking the Users’ use of the
+																Applications;</span>
+														<li><span>2.1.10 to comply with our obligations in accordance with laws, regulations and to
+																cooperate withregulatory authorities;</span>
+														<li><span>2.1.11 to comply with international sanctions and applicable regulation for
+																securities and tocounter money-laundering or financing of terrorism;</span>
+														<li><span>2.1.12 to enforce obligations owed to us, and contractual terms and conditions;
+																and/or</span>
+														<li><span>2.1.13 any other reasonable purposes related to the aforesaid.</span>
+													</ul>
+											<li>
+												<p><span>2.3 We offer you the “Touch ID/Face ID” option in the “Settings” column of the POSEIDON
+														to provide youwith a convenient way to manage your digital Tokens.</span>
+											<li>
+												<p><span>2.4 We offer you the “Payment without Password” option in the POSEIDON. The Payment
+														without Passwordfunction stores your Wallet Password in the Keychain/Keystore of your mobile
+														devices via secure encryptionalgorithm. Your biological identification (Touch ID or Face ID)
+														and authentication are called whenconducting transactions, in order to quickly complete
+														payment and signature.</span>
+										</ul>
+										<h2><a name="3-how-you-control-your-own-information" class="md-header-anchor"></a><span>3. How You
+												Control Your OwnInformation</span></h2>
+										<p><span>You are entitled to control your Personal Information provided to POSEIDON.</span>
+											<ul>
+												<li>
+													<p><span>3.1 You may import your other wallets into POSEIDON through synchronization of
+															wallets and you mayexport your wallets from POSEIDON to other Tokens management wallets.
+															POSEIDON will display the informationof imported wallets to you.</span>
+												<li>
+													<p><span>3.2 You may add or delete Tokens, transfer and collect Tokens using the “Assets”
+															column.</span>
+												<li>
+													<p><span>3.3 You understand that you may handle the following operations in the “Profile”
+															column onPOSEIDON:</span>
+														<ul>
+															<li><span>3.3.1 in the “Settings” column, you may choose not to open “Touch ID/Face ID”,
+																	which means you mayrefuse to use the Touch ID/Face ID verification service;</span>
+															<li><span>3.3.2 in the “Feedback” column, you may submit any questions or suggestions for
+																	POSEIDON at anytime. We are glad to communicate with you to improve our
+																	services.</span>
+														</ul>
+												<li>
+													<p><span>3.4 You acknowledge that you may choose not to open “Payment without Password”, which
+															means you mayrefuse to call your biological identification (Touch ID/Face ID) and
+															authentication when conductingtransactions.</span>
+												<li>
+													<p><span>3.5 You acknowledge that since blockchain is an open source system, your transaction
+															records areautomatically public and transparent in the whole blockchain.</span>
+												<li>
+													<p><span>3.6 Our Applications may contain links to other websites, applications or Smart
+															Contracts that are notowned, operated, developed or maintained by us. These links are
+															provided only for your convenience. ThisPolicy only applies to our Applications. When
+															using Third-Party Service, you understand that the POSEIDONTerms of Service and POSEIDON
+															Privacy Policy will no longer apply. You are encouraged to carefully reviewtheir privacy
+															policies and related terms of service.</span>
+												<li>
+													<p><span>3.7 You are entitled to ask us to update, revise, and delete your Personal
+															Information and/or withdrawany consent provided to us. If you wish to withdraw any consent
+															you have given us at any time, or if youwish to update, revise, delete or have access to
+															your Personal Information held by us, or if you do notaccept any amendment to this Policy,
+															please contact us at:</span><span>Name: WeiHao Xia</span><span>Email: </span><a
+															href='mailto: support@pose.dev'><span>support@pose.dev</span></a>
+												<li>
+													<p><span>3.8 We may charge you a fee for responding to your request for access to your
+															Personal Information heldby us, or for information about the ways in which we have (or may
+															have) used your Personal Information inthe one-year period preceding your request. If a
+															fee is to be charged, we will inform you of the amountbeforehand and respond to your
+															request after payment is received. We will endeavour to respond to yourrequest within
+															thirty (30) days, and if that is not possible, we will inform you of the time by which
+															wewill respond to you.</span>
+												<li>
+													<p><span>3.9 In many circumstances, we need to use your Personal Information in order for us
+															to provide you withproducts or services that you require. If you do not provide us with
+															the required Personal Information, orif you withdraw your consent to our use and/or
+															disclosure of your Personal Information for these purposes,it may not be possible for us
+															to continue to serve you or provide you with the products and services thatyou
+															require.</span>
+											</ul>
+											<h2><a name="4-information-we-may-share-or-transfer" class="md-header-anchor"></a><span>4.
+													Information We may Shareor Transfer</span></h2>
+											<ul>
+												<li>
+													<p><span>4.1 We will keep your Personal Information for so long as we need the Personal
+															Information for ourbusiness and legal purposes.</span>
+												<li>
+													<p><span>4.2 We do not sell, trade or otherwise transfer your Personal Information to third
+															parties without yourconsent.</span>
+												<li>
+													<p><span>4.3 If you have consented to our disclosure of your Personal Information to our
+															strategic businesspartners and associates, we may disclose your Personal Information to
+															them. They will use your PersonalInformation only for the purposes you have consented
+															to.</span>
+												<li>
+													<p><span>4.4 You agree that we may disclose or share your Personal Information with third
+															parties suchas:</span>
+														<ul>
+															<li><span>4.4.1 service providers and data processors working on our behalf and providing
+																	services to us suchas conducting know-your-clients checks, accounting, data processing
+																	or management services, websitehosting, maintenance and operation services, e-mail
+																	message services, analysis services, handling ofpayment transactions, marketing etc;
+																	and</span>
+														</ul>
+												<li>
+													<p><span>4.5 If we need to transfer your Personal Information to any country for the purposes
+															set out above, weshall obtain your prior consent and ensure that the recipient of the
+															Personal Information protects yourPersonal Information to the same level as we have
+															committed to protecting your Personal Information. Wherethese countries or territories do
+															not have personal data protection laws that are comparable to the lawsapplicable to our
+															relationship with you, we will enter into legally enforceable agreements with
+															therecipients.</span>
+												<li>
+													<p><span>4.6 The Company will not share with or transfer your Personal Information to any
+															third party withoutyour prior consent, except for the following circumstances:</span>
+														<ul>
+															<li><span>4.6.1 the collected Personal Information is publicized by yourself;</span>
+															<li><span>4.6.2 the Personal Information is collected from public information which was
+																	legally disclosed,such as news (lawfully reported), government information disclosure
+																	and other channels;</span>
+															<li><span>4.6.3 in order to abide by applicable laws, regulations, legal procedures, and
+																	administrative orjudiciary authorities or to enforce our Policy or protect our or
+																	others’ rights, property orsafety;</span>
+															<li><span>4.6.4 in the case of mergers and acquisitions, if transfer of Personal
+																	Information is involved, theCompany may require the receivers of Personal Information
+																	to be continuously bound by this Policy.</span>
+														</ul>
+											</ul>
+											<h2><a name="5-automatic-data-collection-technologies" class="md-header-anchor"></a><span>5.
+													Automatic DataCollection Technologies</span></h2>
+											<ul>
+												<li>
+													<p><span>5.1 We use Automatic Data Collection Technologies on our Applications. Examples of
+															such technologiesinclude:</span>
+														<ul>
+															<li><span>5.1.1 Cookies (or browser cookies). Cookies are small text files which are set
+																	by a website orapplication operator so that your browser or device may be recognised.
+																	We may make use of cookies on ourApplications to store and track information such as
+																	the number of users and their frequency of use,profiles of users and their online
+																	preferences. Cookies do not capture information which would personallyidentify you,
+																	but the information collected may be used to assist us in analysing the usage of
+																	ourApplications and to improve your online experience with us. You can disable the
+																	cookies by changing thesetting on your browser. However, this may affect the
+																	functionality of the Applications.</span>
+															<li><span>5.1.2 Web analytics. Web analytics is the term given to a method for collecting
+																	and assessing thebehaviour of visitors to websites and mobile applications. This
+																	includes the analysis of traffic patternsin order, for example, to determine the
+																	frequency of visits to certain parts of a website or mobileapplication, or to find out
+																	what information and services our visitors are most interested in. The webanalytics
+																	services on our Applications are provided by third-party service providers.</span>
+														</ul>
+											</ul>
+											<h2><a name="6-how-we-protect-your-information" class="md-header-anchor"></a><span>6. How We
+													Protect YourInformation</span></h2>
+											<ul>
+												<li><span>6.1 If the Company ceases operation, the Company will stop the collection of your
+														Personal Information,and take steps to delete or anonymize your Personal Information held by
+														us within a reasonable period.</span>
+												<li><span>6.2 To protect your Personal Information, the Company may adopt data security
+														techniques, improveinternal compliance levels, provide security training for our staff, and
+														set security authority for access torelevant data to protect your Personal
+														Information.</span>
+												<li><span>6.3 We will send you messages about information security in the “Notifications” column
+														and updatearticles concerning the use of wallets and information protection in the “Support”
+														column on our Applicationsfor your reference.</span>
+											</ul>
+											<h2><a name="7-protection-for-the-minors" class="md-header-anchor"></a><span>7. Protection for the
+													Minors</span></h2>
+											<p><span>The following special provisions apply to minors who are under the age of 18 years
+													old:</span>
+												<ul>
+													<li><span>7.1 The minors shall not use POSEIDON without the guidance from their parents or
+															guardians.</span>
+													<li><span>7.2 The parents and guardians of the minors shall provide guidance to the minors on
+															using POSEIDON afterthey read this Policy, POSEIDON Terms of Service and other relevant
+															rules.</span>
+													<li><span>7.3 POSEIDON will ensure the confidentiality and security of the minors’ Personal
+															Information inaccordance with the applicable laws and regulations.</span>
+												</ul>
+												<h2><a name="8-disclaimer" class="md-header-anchor"></a><span>8. Disclaimer</span></h2>
+												<ul>
+													<li><span>8.1 After you use Third-Party Service, you acknowledge that this Policy no longer
+															applies to thecollection, use, disclosure and transfer of your Personal Information by
+															these third parties. The Company isunable to guarantee that these third parties will
+															implement reasonable security measures to protect yourPersonal Information.</span>
+													<li><span>8.2 You are solely responsible for your use of Third-Party Service and agree that
+															you will not hold theCompany liable for any damages incurred or injuries inflicted as a
+															result of the collection, use, disclosureand transfer of your Personal Information by
+															these third parties.</span>
+													<li><span>8.3 YOU ACKNOWLEDGE AND ACCEPT THAT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE
+															LAW, THE COMPANY WILLADOPT MEASURES AS REASONABLE AS POSSIBLE TO PROTECT YOUR PERSONAL
+															INFORMATION UNDER CURRENT TECHNIQUES ON AN“AS IS”, “AS AVAILABLE” AND “WITH ALL FAULTS”
+															BASIS, TO AVOID THE DISCLOSURE, TAMPERING OR DAMAGE OFINFORMATION. SINCE THE COMPANY
+															TRANSFERS DATA WIRELESSLY, THE COMPANY MAKES NO GUARANTEE ON THE PRIVACY ANDSECURITY OF
+															WIRELESS INTERNET DATA TRANSFERRING.</span>
+												</ul>
+												<h2><a name="9-miscellaneous" class="md-header-anchor"></a><span>9. Miscellaneous</span></h2>
+												<ul>
+													<li>
+														<p><span>9.1 You shall fully understand and conform to the laws, regulations and rules in
+																your jurisdictionswhich are relevant to use of the services provided by the
+																Company.</span>
+													<li>
+														<p><span>9.2 Governing Law and Dispute Resolution:</span>
+															<ul>
+																<li><span>9.2.1 This Policy shall be governed by and construed in accordance with the
+																		laws of the Republic ofSingapore.</span>
+																<li><span>9.2.2 In the event of any dispute arising out of or in connection with this
+																		Policy, including anyquestion regarding its existence, validity or termination, the
+																		Parties shall first seek settlement of thatdispute. In the event that such dispute
+																		is not resolved within a period of 30 days from the commencementof such settlement
+																		process, such dispute shall be referred to and finally be resolved by arbitration
+																		inSingapore in accordance with the rules of the Singapore International Arbitration
+																		Centre (“SIAC”) for thetime being in force, which rules are deemed to be
+																		incorporated by reference in this clause. The tribunalshall consist of a sole
+																		arbitrator to be appointed by the Chairman of the SIAC. The language of
+																		thearbitration shall be English. Each of the Parties irrevocably submits to the
+																		non-exclusive jurisdiction ofthe courts of Singapore to support and assist the
+																		arbitration process pursuant to the foregoing of thisparagraph, including if
+																		necessary the grant of interlocutory relief pending the outcome of
+																		thatprocess.</span>
+															</ul>
+													<li>
+														<p><span>9.3 You may access this Policy and other terms (e.g. POSEIDON Terms of Service)
+																through ourApplications. We encourage you to check the POSEIDON Terms of Service and
+																Policy of the Company each timeyou log onto our Applications.</span>
+													<li>
+														<p><span>9.4 Any translated versions of this Policy are provided for the convenience of
+																Users, and are notintended to amend the original English version of this Policy. If
+																there is any discrepancy between theEnglish version and non-English version of this
+																Policy, the English version shall prevail.</span>
+													<li>
+														<p><span>9.5 This Policy shall become effective on Sep 10, 2019.</span>
+															<p>&nbsp;
+												</ul>
+												<p style="text-align: center"><strong><span>As for any issues not covered in this Policy, you
+															shall comply with theannouncements and relevant rules as updated by the Company from time
+															to time.</span></strong><br><br>
+													<p style="text-align: right"><strong><span>POSEIDON WAVE FOUNDATION PTE. LTD.</span></strong>
+	</div>
+</body>
+
+</html>
